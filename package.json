@@ -15,10 +15,10 @@
     "deploy": "node-pre-gyp-github publish --release || exit 0"
   },
   "binary": {
-    "module_name": "bsdiff",
+    "module_name": "bsdiff-nodejs",
     "module_path": "./build/Release/",
     "host": "https://github.com/NimitzDEV/bsdiff-nodejs/releases/download/",
-    "remote_path": "{version}"
+    "remote_path": "v{version}"
   },
   "keywords": [
     "bsdiff",
