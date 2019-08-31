@@ -17,7 +17,7 @@
   "binary": {
     "module_name": "bsdiff",
     "module_path": "./build/Release/",
-    "host": "https://github.com/Exoway/bsdiff-nodejs/releases/download/",
+    "host": "https://github.com/NimitzDEV/bsdiff-nodejs/releases/download/",
     "remote_path": "{version}"
   },
   "keywords": [
