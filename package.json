@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "install": "node-pre-gyp install --fallback-to-build || node-gyp rebuild",
+    "install": "prebuild-install || node-pre-gyp install --fallback-to-build || node-gyp rebuild",
     "install-verbose": "node-gyp rebuild --verbose",
     "predeploy": "node-pre-gyp rebuild && node-pre-gyp package",
     "deploy": "node-pre-gyp-github publish --release || exit 0"
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "mocha": "^6.2.0",
-    "node-pre-gyp-github": "^1.4.3"
+    "node-pre-gyp-github": "^1.4.3",
+    "prebuild-install": "^5.3.0",
   }
 }
