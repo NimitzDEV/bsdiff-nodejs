@@ -16,7 +16,7 @@
   },
   "binary": {
     "module_name": "bsdiff-nodejs",
-    "module_path": "./build/Release/",
+    "module_path": "./build/",
     "host": "https://github.com/NimitzDEV/bsdiff-nodejs/releases/download/",
     "remote_path": "v{version}"
   },
