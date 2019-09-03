@@ -40,6 +40,6 @@
   "devDependencies": {
     "mocha": "^6.2.0",
     "node-pre-gyp-github": "^1.4.3",
-    "prebuild-install": "^5.3.0",
+    "prebuild-install": "^5.3.0"
   }
 }
