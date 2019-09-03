@@ -9,7 +9,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "install": "prebuild-install || node-pre-gyp install --fallback-to-build || node-gyp rebuild",
+    "install": "node-pre-gyp install --fallback-to-build || node-gyp rebuild",
     "install-verbose": "node-gyp rebuild --verbose",
     "predeploy": "node-pre-gyp rebuild && node-pre-gyp package",
     "deploy": "node-pre-gyp-github publish --release || exit 0"
